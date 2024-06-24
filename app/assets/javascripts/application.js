@@ -14,3 +14,8 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require_gon
+
+// 環境変数
+// const Key = gon.app_id;
+gon.app_id;

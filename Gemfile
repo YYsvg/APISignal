@@ -37,6 +37,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'httparty'
 # 環境変数
 gem 'dotenv-rails'
+# 環境変数
+gem 'gon'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
