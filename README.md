@@ -1,30 +1,19 @@
 # README
 
-### Webアプリに通知機能を持たせられる
-### OneSignal
-- gem 'httparty'
-- github  https://github.com/gazay/gon/blob/master/README.md
+## 目的
+* API実装
+* Webプッシュ通知機能を行う
 
-#### envを作成する（サーバーサイド）
+## 使用技術
+* Ruby version  2.7.3
+* Rails version 5.2.4.2
+* 開発環境 sqlite3
+
+## 機能一覧
+* gem httparty
+* gem gon
 
 ### 学んだこと
-#### クライアントサイドで環境変数を設定する場合、gonを使用する
+* 環境変数はサーバーサイド、クライアントサイドで別の設定が必要である
 
-### できたこと
-- ベルの表示
-- ウィンドウの表示
-
-### 課題
-- ウィンドウの表示が不安定
-- サブスクリプション以外の使い方を確認する
-- gonの使用方法について
-  - 必要？
-  - jsファイルのダウンロード（cdnで読み込んでいるのでは？）
-  - jsファイルに書くrequire
-  - application.html.erb
-    - <%= include_gon %>
-    - これは通った　
-      - appId: '<%= ENV['APP_ID'] %>'
-    - これはNameError
-    - appId: '<%= gon.app_id %>',
 
